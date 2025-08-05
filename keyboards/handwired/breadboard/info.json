@@ -9,9 +9,9 @@
     },
     "processor": "RP2040",
     "bootloader": "rp2040",
-    "diode_direction": "COL2ROW",
+    "diode_direction": "ROW2COL",
     "bootmagic": {
-        "matrix": [0, 0]
+        "matrix": [0, 5]
     },
     "split": {
         "soft_serial_pin": "GP1",
@@ -134,28 +134,28 @@
                 { "matrix": [4, 4], "label": "space", "x": 0, "y": 6.04 },
                 { "matrix": [5, 5], "label": "del", "x": 0, "y": 6.54 },
                 { "matrix": [4, 5], "label": "esc", "x": 0, "y": 7.04 },
-                { "matrix": [10, 0], "label": "esc", "x": 0, "y": 7.54 },
+                { "matrix": [10, 0], "label": "Lesc", "x": 0, "y": 7.54 },
                 {
                     "matrix": [11, 0],
-                    "label": "win",
+                    "label": "Lwin",
                     "x": 0,
                     "y": 8.040000000000001
                 },
                 {
                     "matrix": [10, 1],
-                    "label": "space",
+                    "label": "Lspace",
                     "x": 0,
                     "y": 8.540000000000001
                 },
                 {
                     "matrix": [11, 1],
-                    "label": "ctrl",
+                    "label": "Lctrl",
                     "x": 0,
                     "y": 9.040000000000001
                 },
                 {
                     "matrix": [10, 2],
-                    "label": "shift",
+                    "label": "Lshift",
                     "x": 0,
                     "y": 9.540000000000001
                 }
